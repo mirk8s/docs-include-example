@@ -1,0 +1,15 @@
+site_name: Docs Include Example
+plugins:
+  - search
+  - include-markdown
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+  palette:
+    scheme: default
+nav:
+  - test: 00_test/4.md
